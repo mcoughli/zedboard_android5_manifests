@@ -520,24 +520,24 @@
   <project path="external/slimrom/Superuser" name="Superuser" remote="slimrom" revision="lp5.0" />
 
   <!-- Add zedboard -->
-  <remote name="noritsuna" fetch="https://github.com/noritsuna"/>
+  <remote name="mcoughli" fetch="https://github.com/mcoughli"/>
 
   <project path="external/mesa3d" name="zedroid_external_mesa3d" 
-           remote="noritsuna" revision="zedroid-5.0.2_r1" />
+           remote="mcoughli" revision="zedroid-5.0.2_r1" />
   <project path="device/xilinx/zedboard" name="zedroid_device_xilinx_zedboard"
-           remote="noritsuna" revision="zedroid-5.0.2_r1" />
+           remote="mcoughli" revision="zedroid-5.0.2_r1" />
 
   <project path="frameworks/native" name="zedroid_frameworks_native" groups="pdk"
-           remote="noritsuna" revision="zedroid-5.0.2_r1" />
+           remote="mcoughli" revision="zedroid-5.0.2_r1" />
   <project path="frameworks/base" name="zedroid_frameworks_base" groups="pdk-cw-fs"
-           remote="noritsuna" revision="zedroid-5.0.2_r1" />
+           remote="mcoughli" revision="zedroid-5.0.2_r1" />
 
   <project path="system/core" name="zedroid_system_core" groups="pdk" 
-           remote="noritsuna" revision="zedroid-5.0.2_r1" />
+           remote="mcoughli" revision="zedroid-5.0.2_r1" />
 
   <project path="device/xilinx/zedboard-kernel" name="zedroid_device_xilinx_zedboard-images" 
-           remote="noritsuna" revision="zedroid-5.0.2_r1" />
+           remote="mcoughli" revision="zedroid-5.0.2_r1" />
   <project path="device/xilinx/zedboard-kernel-src" name="zedroid_device_xilinx_zedboard-kernel" 
-           remote="noritsuna" revision="zedroid-5.0.2_r1" />
+           remote="mcoughli" revision="zedroid-5.0.2_r1" />
 
 </manifest>
